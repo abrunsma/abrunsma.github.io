@@ -60,26 +60,24 @@ html, body {
   width: 100%;
   padding: 0;
   margin: 0;
-  background: url(images/Bricks_bg.jpg)
+  background: url(images/leaves_bg.jpg)
       center center fixed no-repeat;
     background-size: cover;
-	
-	
 }
 
 .center {
-    width: 800px;
+    width: 80%; /* added this to make div responsive */
+    max-width: 800px;
 	padding: 2%;
     margin: 100px auto;
- 	background: rgba(0, 150, 178, .75); /*this uses opacity of 75% for the background color*/
+    border-radius: 30px 150px;
 	text-align: center;
-	border: 4px dashed white;
 }
 
    
 #logo {
-    margin-bottom: 16px;
-	border: 3px dashed red;
+    margin-bottom: 50px;
+    margin-top: 40px;
 	text-align: center;
 }
 
@@ -89,23 +87,23 @@ h1 {
     font-style: normal;
 	font-size: 2em;
     margin: 0px auto 10px auto;
-    color: #fff;
+    color: antiquewhite; /* changed from #fff */
 }
 
 h2 {
 	 /* FONT-FAMILY GOES HERE CHOOSE FROM ADOBE FONTS OR GOOGLE FONTS */
 	font-size: 1.5em;
     line-height: 1.4;
-    color: #fff;
+    color: antiquewhite; /* changed from #fff */
     padding: 0px 0px;
     margin: 0px auto 25px auto;
 }
 
 p {
-	/* FONT-FAMILY GOES HERE CHOOSE FROM ADOBE FONTS OR GOOGLE FONTS */		;
+	/* FONT-FAMILY GOES HERE CHOOSE FROM ADOBE FONTS OR GOOGLE FONTS */
 	font-size: 1.2em;
     line-height: 1.6;
-    color: #fff;
+    color: antiquewhite; /* changed from #fff */
 }
     
 nav{
@@ -129,11 +127,11 @@ nav a{
     }
 
 a{
-    color: #444;
+    color: #ffcccc; /* changed from #444 */
     text-decoration: none;
-    font-weight: blod;
+    font-weight: bold;
     }
 a:hover{
-    color:black;
-    background:pink;
+    color:yellow; /* changed from white */
+    background:pink; 
     }
