@@ -17,35 +17,35 @@ body {
 h1 {
 	background-color rgb(153, 153, 169); 
 	color: rgb(250,250,250; 
-	font-size: 3em;
-	padding: 2rem 2rem 1rem; 
+	font-size: 2em;
+	padding: 2rem 1rem 0.5rem; 
 	font-weight: bold;
-	text-transform: capitalize;
+	text-transform: uppercase;
 }
 
 h1 span { 	
-	font-family: sans-serif;
+	font-family: serif;
 	font-style: italic;
-	font-weight: normal;
+	font-weight: bold;
 	text-transform: lowercase;
 }
 
 h2 {
 	background-color: rgb(153, 153, 169);
-	color: rgb(153, 153, 169);
-	font-size: 2em;
-	padding: 0.5rem;
+	color: rgb(250, 250, 250);
+	font-size: 1.5em;
+	padding: 1rem;
 	font-family: serif;
 	font-weight: bold;
 }
 
 h3 {
-	margin: 1rem 1rem 1rem; 
-	padding-top: 1rem;
-	font-size: 2em;
+	margin: 4rem 1rem 0.5rem; 
+	padding-top: 0.5rem;
+	font-size: 1.2em;
 	color: rgb(187, 33, 34);
 	font-weight: bold;
-	text-transform: capitalize;
+	text-transform: uppercase;
 	letter-spacing: 0.1em; 
 	border-top-width: 0.1em;
 	border-top-style: solid;
@@ -65,10 +65,10 @@ p.price {
 }
 
 ul {
-	margin: 1rem 1rem 1rem;
+	margin: 1.5rem 2rem 3rem 0rem;
 }
 
 li { 
-	margin: 1rem 1rem;
+	margin: 1rem;
 	list-style: none;
 }
