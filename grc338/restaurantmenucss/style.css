@@ -18,7 +18,7 @@ h1 {
 	background-color rgb(153, 153, 169); 
 	color: rgb(153, 153, 169); 
 	font-size: 3em;
-	padding: 4rem 2rem 1rem; 
+	padding: 2rem 2rem 1rem; 
 	font-weight: bold;
 	text-transform: capitalize;
 }
@@ -70,4 +70,5 @@ ul {
 
 li { 
 	margin: 1rem 1rem;
+	list-style: none;
 }
