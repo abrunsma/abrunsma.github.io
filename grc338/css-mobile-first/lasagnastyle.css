@@ -47,11 +47,13 @@ h3{
 }
 
 ul{ margin-left: 0.5em;
+    list-style-position: outside;
     
 }
 
 ol{
     margin-left: 0.5em;
+    list-style: decimal;
 }
 
 li{ 
