@@ -44,14 +44,17 @@ h3{
     font-style: normal;
     text-transform: uppercase;
     letter-spacing: 0.2em;
-    margin: 2em 1em 1em 1.5em;
+    padding-left: 2em;
+    padding-right: 2em;
+    padding-bottom: 1em;
+    padding-top: 1em;
 }
 
-ul{ margin-left: 1em;    
+ul{ margin-left: 2em;    
 }
 
 ol{
-    margin-left: 1em;
+    margin-left: 2em;
     margin-bottom: 2em;
 }
 
