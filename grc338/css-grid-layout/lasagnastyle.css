@@ -9,6 +9,7 @@ body{
 div.container{
     max-width: 70em;
     margin: auto;
+    background-color: white;
 }
 
 figure{
@@ -16,7 +17,6 @@ figure{
     margin: auto;
     display: grid;
     grid-template-columns: 80% 20%;
-    background-color: white
 }
     
 main{
