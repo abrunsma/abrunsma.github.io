@@ -7,20 +7,20 @@ body{
 }
 
 div.container{
-    max-width: 70em;
+    max-width: 70rem;
     margin: auto;
     background-color: white;
 }
 
 figure{
-    max-width: 100em;
+    max-width: 100rem;
     margin: auto;
     display: grid;
     grid-template-columns: 80% 20%;
 }
     
 main{
-    max-width: 85em;
+    max-width: 85rem;
     margin: auto;
     display: grid;
     grid-template-columns: 50% 50%;
@@ -33,7 +33,7 @@ img {
 
 header{
     background-color: rgb(237 141 52);
-    padding: 1.5em 2em 1em 1em;
+    padding: 1.5rem 2rem 1rem 1rem;
 }
 
 h1{
@@ -50,14 +50,14 @@ h2{
     font-family: Sutro, serif;  
     font-weight: 300;  
     font-style: normal;
-    padding-top:0.5em;
+    padding-top:0.5rem;
 }
 
 figcaption {
     font-family: poppins, sans-serif;  
     font-weight: 400;  
     font-style: italic;
-    margin: 2em;   
+    margin: 2rem;   
 }
 
 h3{
@@ -67,23 +67,23 @@ h3{
     font-weight: 300;  
     font-style: normal;
     text-transform: uppercase;
-    letter-spacing: 0.2em;
-    margin: 2em 1.2em 0.5em;
+    letter-spacing: 0.2rem;
+    margin: 2rem 1.7rem 0.5rem;
     border-top: 1px  solid rgb(237 141 52);
-    padding-top: 1em;
+    padding-top: 1rem;
 }
 
-ul{ margin: 1em 0.5em 5em;}
+ul{ margin: 1rem 1rem 5rem;}
 
 ol{
-    margin: 1em 0.5em 4em;}
+    margin: 1rem 1rem 4rem;}
 
 li{ 
     color: rgb(39 39 39);
     font-family: poppins, sans-serif;  
     font-weight: 400;  
     font-style: normal;
-    margin: 1em;
+    margin: 1rem;
     line-height: 150%;
 }
 
@@ -96,5 +96,5 @@ p{
 
 footer{
     background-color: rgb(237 141 52);
-    padding: 1em;
+    padding: 1rem;
 }
