@@ -90,9 +90,11 @@ p{
     margin: 0rem 0.5rem 1.2rem;
 }
 
-p.price {
+    p.price {
     color: rgb(120 150 70);
     margin: 0rem 0rem 1rem;
+    padding: 0rem 0rem 1rem;
+    border-bottom: 3px solid rgb(120 150 70); 
 }
 
 p.description {
