@@ -1,0 +1,100 @@
+/*CSS DOCUMENT*/
+
+html, body, div, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {margin: 0; padding: 0; border: 0; font-size: 100%; font: inherit;} 
+
+body {
+    background-color: #D9CDBF;
+    color: #0D0D0D;
+    text-align: center;
+}
+
+img {
+    width: 100%; 
+    display: block;
+}
+
+header{
+    padding: 1.5em 2em 1em 1em;
+    font-family: rift-soft,sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+h1{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 15em;
+    padding-bottom: 1em;
+
+}
+
+h2{
+    font-size:2em;
+    color: rgb(120 150 70);
+    font-family: Sutro, serif;  
+    font-weight: 300;  
+    text-transform: uppercase;
+    padding-top:0.5em;
+    text-align: center;
+    font-family: brandon-grotesque,sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+figcaption {
+    font-family: poppins, sans-serif;  
+    font-weight: 400;  
+    font-style: italic;
+    margin: 1em;    
+}
+
+h3{
+    font-size: 1.2em;
+    color: #1e1e1e;
+    font-family: brandon-grotesque,sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    margin: 1.5rem 1.2erm 0.5rem
+    
+}
+
+nav, ul, li {
+    display: inline-block;
+    list-style-type: none;
+    margin: 0rem 0rem 0.5rem;
+    padding: 1rem 0.5rem 0rem;
+    font-size: 1.5rem;
+    font-weight: 500;
+    text-align: center;
+    text-decoration: none;
+}
+
+li {
+    margin: 0rem 0rem 1rem;
+}
+
+a:link, a:visited, a:active {
+    color: inherit; 
+    text-decoration: none; 
+}
+
+a:hover {
+    color: rgb(120 150 70)
+}
+
+p{
+    font-family: brandon-grotesque,sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    margin: 0rem 0.5rem 1.2rem;
+}
+
+p.price {
+    color: rgb(120 150 70);
+    margin: 0rem 0rem 1rem;
+}
+
+p.description {
+ font-style: italic;
+}
