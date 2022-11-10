@@ -55,7 +55,7 @@ a:link, a:visited, a:active {
     text-decoration: none; 
 }
 a:hover {
-    color: rgb(120 150 70)
+    color: rgb(120 150 70);
 }
 p{
     font-family: brandon-grotesque,sans-serif;
