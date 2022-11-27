@@ -82,7 +82,7 @@ html, body, div, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, 
      color: rgb(120 150 70);
 }
 a.underline{
-     text-decoration-style: underline;
+     text-decoration: underline;
 }
  p{
      font-family: brandon-grotesque,sans-serif;
@@ -91,7 +91,7 @@ a.underline{
      margin: 0rem 0.5rem 1.2rem;
 }
 a.location {
-     text-decoration-style: underline;
+     text-decoration: underline;
 }
 .price {
      color: rgb(120 150 70);
