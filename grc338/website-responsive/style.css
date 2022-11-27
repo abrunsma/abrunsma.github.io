@@ -81,7 +81,7 @@ html, body, div, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, 
  a:hover {
      color: rgb(120 150 70);
 }
-.underline{
+a.underline{
      text-decoration-style: underline;
 }
  p{
@@ -90,7 +90,7 @@ html, body, div, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, 
      font-style: normal;
      margin: 0rem 0.5rem 1.2rem;
 }
-.location {
+a.location {
      text-decoration-style: underline;
 }
 .price {
