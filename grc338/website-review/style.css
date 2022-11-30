@@ -1,0 +1,157 @@
+/*CSS DOCUMENT*/
+html, body, div, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+     margin: 0;
+     padding: 0;
+     border: 0;
+     font-size: 100%;
+     font: inherit;
+ }
+  body {
+      background-color: #F2F0EB;
+      color: #0D0D0D;
+      text-align: center;
+ }
+  img {
+      width: 100%;
+      display: block;
+ }
+  header{
+      padding: 1.5rem 2rem 1rem 1rem;
+      font-family: rift-soft,sans-serif;
+      font-weight: 400;
+      font-style: normal;
+ }
+ .container {
+      max-width: 60rem;
+      margin:auto;
+ }
+  div.services {
+      background-color: #374036;
+      color: #F2F0EB;
+ }
+  h1{
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      width: 15em;
+      padding-bottom: 1em;
+ }
+  h2{
+      font-size: 2em;
+      color: rgb(120 150 70);
+      padding-top: 2rem;
+      text-align: center;
+      font-family: brandon-grotesque,sans-serif;
+      font-weight: 400;
+      font-style: normal;
+      text-transform: uppercase;
+      line-height: 1.1em;
+      margin: 0rem 1rem 1rem;
+ }
+  .services{
+      color: #CFE096;
+      border: none;
+ }
+  .events, .home{
+      border: none;
+ }
+  h3{
+      font-family: brandon-grotesque,sans-serif;
+      font-weight: 600;
+      font-style: normal;
+ }
+  figcaption {
+      font-family: brandon-grotesque,sans-serif;
+      font-weight: 400;
+      font-style: italic;
+      margin: 1em;
+ }
+  nav, ul, li {
+      display: inline-block;
+      list-style-type: none;
+      margin: 0 0 0.5rem;
+      padding: 1rem 0.5rem 0;
+      font-size: 1.5rem;
+      text-align: center;
+ }
+  a:link, a:visited, a:active {
+      color: inherit;
+      text-decoration: none;
+ }
+  a:hover {
+      color: rgb(120 150 70);
+ }
+  a.underline{
+      text-decoration: underline;
+ }
+  p{
+      font-family: brandon-grotesque,sans-serif;
+      font-weight: 400;
+      font-style: normal;
+      margin: 0rem 0.5rem 1.2rem;
+ }
+  a.location {
+      text-decoration: underline;
+ }
+  .price {
+      color: rgb(120 150 70);
+      margin: 0rem 0rem 2.5rem;
+ }
+  .description {
+      font-style: italic;
+      text-align: left;
+      margin: 0rem 1rem;
+ }
+  .about {
+      text-align: left;
+      font-size: 1.7em;
+      font-weight: 50;
+      margin: 2rem 2rem 6rem;
+      line-height: 3rem;
+ }
+  .serviceprice{
+      color: #CFE096;
+ }
+  .date{
+      text-align: left;
+ }
+  footer {
+      display: grid;
+      grid-template-columns: 10% 90%;
+      background-color: #374036;
+      padding: 7rem 0rem 5rem;
+      color: #F2F0EB;
+      margin-top: 3rem;
+ }
+  nav.footer, ul.footer, li.footer {
+      display: inline-block;
+      list-style-type: none;
+      text-align: left;
+      font-family: rift-soft,sans-serif;
+      font-weight: 400;
+      font-style: normal;
+      text-decoration: underline;
+      margin-right: 1rem;
+ }
+  a.footer:hover {
+      color: #CFE096;
+ }
+  @media only screen and (min-width: 60em) {
+      visit {
+          display: grid;
+          grid-template-columns: 1fr 1fr 1fr;
+     }
+      div.services {
+          padding: 0rem 22rem;
+     }
+      div.events{
+          padding: 0rem 35rem;
+     }
+      h2{
+          border-top: solid 2px;
+     }
+      p.about{
+          border-bottom: solid 2px rgb(120 150 70);
+          padding-bottom: 2.5rem;
+     }
+ }
