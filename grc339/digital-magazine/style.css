@@ -1,0 +1,76 @@
+/*CSS document*/
+
+body {
+    background-color: rgb(255, 255, 255);
+    color: #141414;
+    text-align: center;
+}
+
+div.container {
+    max-width: 40em;
+    margin: auto;
+}
+
+figure {
+    margin: 0;
+}
+
+img {
+    width: 100%;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+h1{
+    display: block;
+    margin: auto;
+    padding-top: 1em;
+    padding-bottom: 0.5em;
+    width: 15em;
+}
+
+h3{
+    font-family: neue-haas-grotesk-display, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.5em;
+    text-transform: uppercase;
+    text-align: left;
+}
+
+p{
+    font-family: neue-haas-grotesk-display, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    padding-bottom: 3em;
+    text-align: left;
+}
+
+main {
+    color: #141414;
+    text-decoration: none;
+}
+
+a:link, a:visited, a:active {
+    color: inherit;
+    text-decoration: none;
+}
+
+a:hover {
+    color:#72981F;
+}
+
+nav, ul, li {
+    display: inline-block;
+    list-style-type: none;
+    padding: 0rem 0.5rem 1.3rem;
+    font-family: neue-haas-grotesk-display, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    text-align: center;
+    font-size: 1.1em;
+    text-transform: uppercase;
+}
