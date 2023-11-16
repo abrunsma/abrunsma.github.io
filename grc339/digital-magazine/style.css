@@ -74,11 +74,16 @@ html, body, div, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, 
     text-align: left;
     margin-bottom: 1em;
     }
-    p.section-end{
+    p.section-end1{
     border-bottom: 2px solid #72981F;
-    padding-bottom: 2em;
-    margin-bottom: 1.5em;
+    padding-bottom: 4em;
     }
+    p.section-end2{
+        border-bottom: 2px solid #72981F;
+        padding-bottom: 2em;
+        margin-bottom: 1.1em;
+        }
+    
     footer{
     padding: 2em 1em 2em;
     margin-top: 2em;
@@ -240,9 +245,9 @@ html, body, div, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, 
     margin-top: 0em;
     }
     
-    section.secondary figure{
+    /* section.secondary figure{
     padding-bottom: 0em;
-    }
+    } */
     
     div.newsletter{
     margin: 0 auto;
