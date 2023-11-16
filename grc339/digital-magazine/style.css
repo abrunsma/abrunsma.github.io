@@ -6,9 +6,9 @@ html, body, div, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, 
     font-size: 100%;
     font: inherit;
     }
-body {
+    body {
     font-family: "neue-haas-grotesk-display", sans-serif;
-    font-weight: 500;
+    font-weight: 300;
     font-style: normal;
     font-size: 1rem;
     line-height: 1.5rem;
@@ -17,133 +17,238 @@ body {
     padding: 2em;
     margin: 2em;
     text-align: center;
+    box-sizing: border-box;
     }
-div.container2{
-    max-width: 30em;
-    margin: auto;
-    text-align: left;
-    }
-img {
+    img {
     width: 100%;
     padding-bottom: 1em;
     }
-img.storyimage{
+    img.storyimage{
     width: 70%;
     padding-top: 2em;
     align-items: left;
     }
- nav, ul, li {
+    nav, ul, li {
     display: inline-block;
     list-style-type: none;
     padding: 0rem 0.7rem 1.3rem;
     text-align: center;
     color: #997760;
     }
- a:link, a:visited, a:active {
+    a:link, a:visited, a:active {
     color: inherit;
     text-decoration: none;
     }
-a.nav:hover {
+    a.nav{
+    font-weight: 300;
+    }
+    a.nav:hover {
     color:#72981F;
     }
-h1{
+    h1{
     margin: auto;
     padding-top: 1em;
     padding-bottom: 0.5em;
     width: 20em;
     }
-h2{
+    h2{
     text-align: left;
     color: #997760;
     font-size: 2em;
-    font-weight: 500;
     line-height: 1.2;
     margin: 0.6em 0 0.8em;
     } 
-h3{
+    h3{
     text-align: left;
     color: #997760;
     font-size: 1.3em;
-    font-weight: 400;
     line-height: 1.2;
     margin: 0.6em 0 0.8em;
     }
-p{
+    p{
     text-align: left;
     }
-figcaption{
+    figcaption{
     font-family: neue-haas-grotesk-display, sans-serif;
-    font-weight: 500;
     font-style: italic;
     text-align: left;
     margin-bottom: 1em;
     }
-p.section-end{
+    p.section-end{
     border-bottom: 2px solid #72981F;
     padding-bottom: 2em;
     margin-bottom: 1.5em;
     }
-footer{
-    padding: 1.5em 1em 2em;
+    footer{
+    padding: 2em 1em 2em;
     margin-top: 2em;
     border-top: 2px solid #997760;
     }
-@media only screen and (min-width: 60em){
-div.container{
+    /* gallery */
+    input:nth-of-type(1):checked ~ main.gallery figure:nth-of-type(1),
+    input:nth-of-type(2):checked ~ main.gallery figure:nth-of-type(2),
+    input:nth-of-type(3):checked ~ main.gallery figure:nth-of-type(3),
+    input:nth-of-type(4):checked ~ main.gallery figure:nth-of-type(4),
+    input:nth-of-type(5):checked ~ main.gallery figure:nth-of-type(5),
+    input:nth-of-type(6):checked ~ main.gallery figure:nth-of-type(6),
+    input:nth-of-type(7):checked ~ main.gallery figure:nth-of-type(7),
+    input:nth-of-type(8):checked ~ main.gallery figure:nth-of-type(8){
+    opacity: 1;
+    }
+    nav.gallery {
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    grid-gap: 0.2em;
+    width: 90%;
+    margin: auto;
+    } 
+    input {
+    display: none;
+    }
+    main.gallery{
+    position:relative;
+    overflow: hidden;
+    padding-bottom: calc(60% + 4em);
+    width: 90%;
+    margin: auto;
+    }
+    figure.gallery{
+    margin: 0;
+    /* width: calc(100%-2em); */
+    position: absolute;
+    opacity: 0;
+    transition: opacity 0.5s;
+    }
+    img.gallery
+    {
+    padding-bottom: 0.5em;
+    }
+    h2.gallery{
+    text-align: center;
+    padding-bottom: 0.2em;
+    }
+    /* Newsletter form */
+    div.newsletter {
+    max-width: 40em;
+    margin: 1em;
+    padding: 1em;
+    }
+    section.personal-info ul.info li {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 1em;
+    }
+    section.personal-info ul.info li input[type="text"],
+    section.personal-info ul.info li input[type="email"] {
+    display: flex;
+    flex: 1 0 10em;
+    box-sizing: border-box;
+    border-radius: 0;
+    border: 1px solid #997760;
+    background-color: #f9f9f9;
+    }
+    section.personal-info ul.info li label {
+    flex: 0 0 10em;
+    }
+    textarea {
+    box-sizing: border-box;
+    /* display: flex; */
+    width: 37em;
+    height: 6em;
+    background: #FFFFFF;
+    border: 1.2px solid #997760;
+    background-color: #f9f9f9;
+    }
+    section.info{
+    max-width: 40em;
+    margin: 0 auto 3em;
+    }
+    section.notes{
+    text-align: left;
+    }
+    label{
+    color: #997760;
+    text-align: left;
+    } 
+    button {
+    padding: 0.4em;
+    background: #997760;
+    border: 1px solid #997760;
+    color: #FFFFFF;
+    border-radius: 0.3em;
+    margin-top: 1.5em;
+    font-family: inherit;
+    }
+    @media only screen and (min-width: 60em){
+    div.container{
     max-width: 80em;
     margin: auto;
     display: grid;
-    grid-template-columns: 3fr 1fr;
+    grid-template-columns: 7fr 1fr;
     grid-gap: 0 2em;
     }
-div.container2{
+    div.mainstory{
     max-width: 60em;
     margin: auto;
     display: grid;
     grid-template-columns: 3fr 1fr;
     grid-gap: 0 2em;
     }
-main{
+    div.newsletter{
+    /* display: grid;
+    grid-template-columns: repeat(3, 1fr); */
+    margin: 0 auto;
+    max-width: 30em;
+    }
+    div.gallery{
+    max-width: 60em; 
+    margin: auto;
+    padding: 1em; 
+    }
+    main{
     display: grid;
     grid-gap: 0 2em;
     grid-template-columns: repeat(3, 1fr);
     grid-column: 1/2;
     }
-header {
+    main.gallery{
+    padding-bottom: calc(60% + 1em);
+    }
+    header {
     grid-column: 1/3;
     }
-section{
+    section{
     max-width: 60em;
     margin: 0 auto;
     }
-section.mainstory{
+    section.mainstory{
     grid-column: 2/4;
     grid-row: 1/3;
     display: flex;
     flex-direction: column;
     padding-bottom: 3em;
     }
-section.mainstory a{
+    section.mainstory a{
     flex: 1 0 10em;
     display: flex;
     flex-direction: column;
     }
-section.mainstory a figure{
+    section.mainstory a figure{
     flex: 1 0 10em;
     }
-section.mainstory a figure img{
+    section.mainstory a figure img{
     height: 100%;
     object-fit: cover;
     }
-section.mainstory a h3{
+    section.mainstory a h3{
     flex: 0 0 auto;
     margin-top: 1em;
     }
-section.mainstory a p{
+    section.mainstory a p{
     flex: 0 0 auto;
     margin-top: 0em;
     }
-section.secondary figure{
+    section.secondary figure{
     padding-bottom: 0em;
     }
     }
