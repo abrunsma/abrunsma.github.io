@@ -38,7 +38,7 @@ html, body, div, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, 
     font-weight: 300;
     }
     a.nav:hover {
-    color:#72981F;
+    color:#8EAD4C;
     }
     h1{
     margin: auto;
@@ -70,11 +70,11 @@ html, body, div, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, 
     margin-bottom: 1em;
     }
     p.section-end1{
-    border-bottom: 2px solid #72981F;
+    border-bottom: 2px solid #8EAD4C;
     padding-bottom: 4em;
     }
     p.section-end2{
-    border-bottom: 2px solid #72981F;
+    border-bottom: 2px solid #8EAD4C;
     padding-bottom: 2em;
     margin-bottom: 1.1em;
     }
@@ -91,7 +91,7 @@ html, body, div, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, 
     text-align: left;
     }
     p.section-end3{
-    border-bottom: 2px solid #72981F;
+    border-bottom: 2px solid #8EAD4C;
     padding-bottom: 2em;
     margin-bottom: 1.4em;
     }
@@ -319,27 +319,31 @@ html, body, div, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, 
     main.gallery{
     padding-bottom: calc(60% + 7em);
     }
-}
-    /* Dark mode */
-
-    @media screen and (prefers-color-scheme: dark){
-        h1{
-            background-image: url("logo-alt.png");
-            background-repeat: no-repeat;  
-    background-size: contain; 
-        }
-        body{
-            background-color: #141414;
-            color: #CCBBAF; 
-        }
-        label{
-            color: #CCBBAF;
     }
-    button {
-    color: #CCBBAF;
+    /* Dark mode */
+    @media screen and (prefers-color-scheme: dark){
+    h1{
+    background-image: url("logo-alt.png");
+    background-repeat: no-repeat;  
+    background-size: contain; 
     }
     h1 img{
     opacity: 0;
-}
-}
-
+    }
+    body{
+    background-color: #141414;
+    color: #D6C9BF; 
+    }
+    label{
+    color: #AE9280;
+    }
+    h2{
+    color: #AE9280;
+    }
+    h3{
+    color: #AE9280;
+    }
+    nav ul li{
+    color: #AE9280;
+    }
+    }
