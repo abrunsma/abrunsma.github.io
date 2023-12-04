@@ -62,6 +62,7 @@ html, body, div, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, 
     }
     p{
     text-align: left;
+    margin-bottom: 1em;
     }
     figcaption{
     font-family: neue-haas-grotesk-display, sans-serif;
@@ -76,7 +77,6 @@ html, body, div, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, 
     p.section-end2{
     border-bottom: 2px solid #8EAD4C;
     padding-bottom: 2em;
-    margin-bottom: 1.1em;
     }
     footer{
     padding: 2em 1em 2em;
